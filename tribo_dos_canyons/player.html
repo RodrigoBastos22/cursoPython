@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tribo dos Canyons</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/home.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/tribe2.ico">
+    <script language="text/javascript" src="js/home.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="home.html" class="w3-bar-item w3-button"><img style="width:25px; height:25px" src="img/tribe2.ico"></a>
+        <a href="home.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Quem somos</a>
+        <a href="home.html#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-image"></i> Galeria</a>
+        <a href="passeio.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-map-o"></i> Passeios</a>
+        <a href="player.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-play-circle-o"></i> Videos</a>
+        <a href="dicas.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-bell-o"></i> Dicas da tribo</a>
+        <a href="home.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contato</a>
+        <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+          <i class="fa fa-search"></i>
+        </a>-->
+      </div>
+
+      <!-- Navbar on small screens -->
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container" id="home">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-white w3-xlarge w3-wide w3-animate-opacity"><img style="width:50px;height:50px" src="img/tribe2.ico"> TRIBO DOS CANYONS</span>
+      </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <h1 class="w3-center"><b>PASSEIOS E AVENTURAS</b></h1>
+      <h3 class="w3-center"><em>Viva a natureza!</em></h3><br>
+      <div class="w3-half">
+        <div class="card" style="width:400px">
+          <iframe class="card-img-top" width="400" height="300" src="https://www.youtube.com/embed/W5aBuTm58cg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="card-body">
+            <h4 class="card-title w3-center">Faça parte da Tribo!</h4>
+
+          </div>
+        </div><br>
+      </div>
+      <div class="w3-half">
+        <div class="card" style="width:400px">
+          <iframe class="card-img-top" width="400" height="300" src="https://www.youtube.com/embed/kJ-c3S9Eq0U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="card-body">
+            <h4 class="card-title w3-center">Rio do Boi</h4>
+          </div>
+        </div><br>
+      </div>
+      <div class="w3-half">
+        <div class="card" style="width:400px">
+          <iframe class="card-img-top" width="400" height="300" src="https://www.youtube.com/embed/ngOx2ckEAmo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="card-body">
+            <h4 class="card-title w3-center">Cachoeira dos Borges</h4>
+          </div>
+        </div><br>
+      </div>
+      <div class="w3-half">
+        <div class="card" style="width:400px">
+          <iframe class="card-img-top" width="400" height="300" src="https://www.youtube.com/embed/ToBCVDrkOG0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="card-body">
+            <h4 class="card-title w3-center">Reação Turistas a Cachoeira na Trilha do  Rio do Boi</h4>
+          </div>
+        </div><br>
+      </div>
+      <div class="w3-half">
+        <div class="card" style="width:400px">
+          <iframe class="card-img-top" width="400" height="300" src="https://www.youtube.com/embed/lO44u7lo03s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="card-body">
+            <h4 class="card-title w3-center">Tobagã no Rio do Boi​​</h4>
+          </div>
+        </div><br>
+      </div>
+      <div class="w3-half">
+        <div class="card" style="width:400px">
+          <iframe class="card-img-top" width="400" height="300" src="https://www.youtube.com/embed/YGo3-PUKRzQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="card-body">
+            <h4 class="card-title w3-center">Travessia nos Canyons​​</h4>
+          </div>
+        </div><br>
+      </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+         <span class="w3-xxlarge w3-text-white w3-wide">CONTATO</span>
+      </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+      <h3 class="w3-center">Fale com a tribo</h3>
+      <p class="w3-center"><em>Deixe seu comentário!</em></p>
+
+      <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container">
+          <!-- Add Google Maps -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15058.787452533285!2d-49.953824751252355!3d-29.215218761410846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9522093643c851c5%3A0x7ce6ff42d3c47c8e!2sTribo+dos+Canyons!5e0!3m2!1spt-BR!2sbr!4v1521323065650" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="w3-col m8 w3-panel">
+          <div class="w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Valdomiro pereira Pinto 63 casa, Praia Grande - SC, 88990-000<br>
+            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Contato: +55 (48) 9.8817-5578 <i class="fa fa-whatsapp"></i><br>
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: tribodoscanyons@gmail.com<br>
+          </div>
+          <p>Venha viver momentos inesquecíveis, e explorar a natureza.</p>
+          <form onsubmit="return validaCampo(this);" method="post" action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Nome" id="txtName" onkeypress="return Onlychars(event)" name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" onblur="checarEmail();" placeholder="Email" id="email" name="txtFromEmail">
+              </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Mensagem" id="txtMessage" name="txtMessage">
+            <button class="w3-button w3-black w3-right w3-section" type="submit" onclick="validaCampo()">
+              <i class="fa fa-paper-plane"></i> Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Topo</a>
+      <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <i class="fa fa-whatsapp w3-hover-opacity"></i>
+      </div>
+      <p>Powered by <a title="W3.CSS" target="_blank" class="w3-hover-text-green">dotCom</a></p>
+    </footer>
+
+    <div class="w3-container">
+      <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+          <div class="w3-center"><br>
+            <span onclick="fechaModal()"class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+            <img src="img/tribe2.ico" alt="Avatar" style="width:30%" class="w3-rounded w3-margin-top">
+            <h3 class="w3-center">Agende sua aventura inesquecível</i></h3>
+            <p style="font-size:15px" class="w3-center">+55 (48) 9.8817-5578 <i class="fa fa-whatsapp"></i></p>
+          </div>
+
+          <form class="w3-container" action="/action_page.php">
+            <div class="w3-section">
+              <input class="w3-input w3-border w3-margin-bottom" id="nome2" onkeypress="return Onlychars(event)" type="text" placeholder="Nome" name="usrname" required>
+              <input class="w3-input w3-border" id="email2" onblur="checarEmail2();"  type="text" placeholder="Email" name="psw" required><br>
+              <input class="w3-input w3-border" id="tel" onkeyup="mascara( this, mtel );" maxlength="15" onkeypress="return Onlynumbers(event)" type="text" placeholder="Contato ou WhatsApp" name="psw" required><br>
+              <textarea class="w3-input w3-border" id="coment" rows="5" placeholder="Mensagem" required name="Message">Olá, tenho interesse de entrar nesta aventura: . Aguardo o contato. Obrigado.</textarea>
+              <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Agendar</button>
+              <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Receber contato por <b>Telefone</b> ou <b>WhatsApp</b>
+            </div>
+          </form>
+          <!--Olá, tenho interesse de entrar nesta aventura: . Aguardo o contato. Obrigado.-->
+          <script>
+
+          function preencher(a){
+            if(a == 1){
+              var com = "Olá, tenho interesse de entrar nesta aventura: ";
+              var com2 = " . Aguardo o contato. Obrigado.";
+              var val = "Trilha de 4 horas";
+
+              document.getElementById('coment').value = com + val + com2;
+            }
+            else if(a == 2){
+              var com = "Olá, tenho interesse de entrar nesta aventura: ";
+              var com2 = " . Aguardo o contato. Obrigado.";
+              var val = "Trilha de 8 horas";
+
+              document.getElementById('coment').value = com + val + com2;
+            }
+            else if(a == 3){
+              var com = "Olá, tenho interesse de entrar nesta aventura: ";
+              var com2 = " . Aguardo o contato. Obrigado.";
+              var val = "Canyon Itaimbézinho";
+
+              document.getElementById('coment').value = com + val + com2;
+            }
+            else if(a == 4){
+              var com = "Olá, tenho interesse de entrar nesta aventura: ";
+              var com2 = " . Aguardo o contato. Obrigado.";
+              var val = "Canyon Fortaleza";
+
+              document.getElementById('coment').value = com + val + com2;
+            }
+            else if(a == 5){
+              var com = "Olá, tenho interesse de entrar nesta aventura: ";
+              var com2 = " . Aguardo o contato. Obrigado.";
+              var val = "Aventuras Radicais";
+
+              document.getElementById('coment').value = com + val + com2;
+            }
+            else if(a == 6){
+              var com = "Olá, tenho interesse de entrar nesta aventura: ";
+              var com2 = " . Aguardo o contato. Obrigado.";
+              var val = "Cachoeiras Maravilhosas";
+
+              document.getElementById('coment').value = com + val + com2;
+            }
+            else if(a == 7){
+              var com = "Olá, tenho interesse de entrar nesta aventura: ";
+              var com2 = " . Aguardo o contato. Obrigado.";
+              var val = "Ecoturismo";
+
+              document.getElementById('coment').value = com + val + com2;
+            }
+            else if(a == 8){
+              var com = "Olá, tenho interesse de entrar nesta aventura: ";
+              var com2 = " . Aguardo o contato. Obrigado.";
+              var val = "Passeios Fotográficos";
+
+              document.getElementById('coment').value = com + val + com2;
+            }
+          }
+
+          function abreModal(){
+            document.getElementById("id01").style.display = "block";
+          }
+
+          function fechaModal(){
+            document.getElementById("id01").style.display = "none";
+            document.getElementById('email2').value="";
+            document.getElementById('tel').value="";
+            document.getElementById('coment').value="";
+            document.getElementById('nome2').value="";
+          }
+
+          function mascara(o,f){
+              v_obj=o
+              v_fun=f
+              setTimeout("execmascara()",1)
+          }
+          function execmascara(){
+              v_obj.value=v_fun(v_obj.value)
+          }
+          function mtel(v){
+              v=v.replace(/\D/g,"");             //Remove tudo o que não é dígito
+              v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
+              v=v.replace(/(\d)(\d{4})$/,"$1-$2");    //Coloca hífen entre o quarto e o quinto dígitos
+              return v;
+          }
+
+          function checarEmail(){
+            if (document.getElementById('email').value !="") {
+              if(document.getElementById('email').value.indexOf('@')==-1|| document.getElementById('email').value.indexOf('.com')==-1 )
+                {
+                  document.getElementById('email').value="";
+                  swal("Por favor!", "informe um email válido!", "error");
+              		return false;
+              	}
+              }
+            }
+
+            function checarEmail2(){
+              if (document.getElementById('email2').value !="") {
+                if(document.getElementById('email2').value.indexOf('@')==-1|| document.getElementById('email2').value.indexOf('.')==-1 )
+                  {
+                    document.getElementById('email2').value="";
+                    swal("Por favor!", "informe um email válido!", "error");
+                		return false;
+                	}
+                }
+              }
+
+          // Modal Image Gallery
+          function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+          }
+
+          // Change style of navbar on scroll
+          window.onscroll = function() {myFunction()};
+          function myFunction() {
+              var navbar = document.getElementById("myNavbar");
+              if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                  navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+              } else {
+                  navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "w3-bar w3-white");
+              }
+          }
+
+          // Used to toggle the menu on small screens when clicking on the menu button
+          function toggleFunction() {
+              var x = document.getElementById("navDemo");
+              if (x.className.indexOf("w3-show") == -1) {
+                  x.className += " w3-show";
+              } else {
+                  x.className = x.className.replace(" w3-show", "");
+              }
+          }
+          function Onlynumbers(e)
+            {
+            	var tecla=new Number();
+            	if(window.event) {
+            		tecla = e.keyCode;
+            	}
+            	else if(e.which) {
+            		tecla = e.which;
+            	}
+            	else {
+            		return true;
+            	}
+            	if((tecla >= "97") && (tecla <= "122")){
+            		return false;
+            	}
+            }
+
+            function Onlychars(e)
+            {
+            	var tecla=new Number();
+            	if(window.event) {
+            		tecla = e.keyCode;
+            	}
+            	else if(e.which) {
+            		tecla = e.which;
+            	}
+            	else {
+            		return true;
+            	}
+            	if((tecla >= "48") && (tecla <= "57")){
+            		return false;
+            	}
+            }
+            function validaCampo(){
+              if(document.getElementById('txtName').value == "" || document.getElementById("txtName").value.trim() == ""){
+                swal("Por favor!", "Preencha o campo nome!", "error");
+                return false;
+              }
+              if(document.getElementById('email').value == "" || document.getElementById("email").value.trim() == ""){
+                swal("Por favor!", "Preencha o campo email!", "error");
+                return false;
+              }
+              if(document.getElementById('txtMessage').value == "" || document.getElementById("txtMessage").trim() == ""){
+                swal("Por favor!", "Preencha o campo com seu comentário!", "error");
+                return false;
+              }
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
